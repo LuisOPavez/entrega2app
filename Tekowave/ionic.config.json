@@ -1,0 +1,7 @@
+{
+  "name": "Tekowave",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

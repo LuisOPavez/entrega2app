@@ -1,0 +1,109 @@
+<!-- Barra Menu -->
+<ion-menu side="end" contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="tertiary">
+      <ion-title>{{titulo}}</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button text="regresar"defaultHref="/"></ion-back-button>
+      </ion-buttons>    
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-button routerLink="/inicio" expand="block">Inicio</ion-button>
+    <ion-button routerLink="/login" expand="block">Log-In</ion-button>
+    <ion-button routerLink="/productos" expand="block">Productos</ion-button>
+    <ion-button routerLink="/carrito" expand="block">Carrito de compras</ion-button>
+  </ion-content>
+</ion-menu>
+
+<!--Logo y Titulo-->
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <div style="display: flex; align-items: center;">
+        <ion-img src="assets/media/icono.jpg" style="width: 60px; margin-right: 0px;" alt="Logo Tekowave"></ion-img>
+        <ion-title routerLink="/inicio">Tekowave</ion-title>
+      </div>
+      <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Quiénes Somos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+<!--Contenido Principal-->
+  <ion-content class="ion-padding">
+    <section class="sobre-teko">
+      <h1>Sobre Tekowave</h1>
+      <p>
+        Bienvenidos a Tekowave, tu tienda de confianza para productos electrónicos de última tecnología. Desde nuestra fundación en 2023, nos hemos dedicado a ofrecer los mejores gadgets y electrodomésticos para satisfacer todas tus necesidades tecnológicas.
+      </p>
+      
+      <h2>Misión</h2>
+      <p>
+        Nuestra misión es proporcionar a nuestros clientes los productos electrónicos más avanzados y de mayor calidad, garantizando una experiencia de compra excepcional. Nos esforzamos por innovar y adaptarnos a las últimas tendencias tecnológicas para ofrecerte lo mejor.
+      </p>
+      
+      <h2>Visión</h2>
+      <p>
+        Ser la tienda líder en productos electrónicos a nivel nacional e internacional, reconocida por nuestro compromiso con la calidad, la innovación y el excelente servicio al cliente. Queremos ser la primera opción para todos los entusiastas de la tecnología.
+      </p>
+      
+      <h2>Valores</h2>
+      <ul>
+        <li>Innovación: Siempre estamos buscando las últimas tecnologías para ti.</li>
+        <li>Calidad: Solo ofrecemos productos que cumplen con nuestros estrictos estándares.</li>
+        <li>Servicio: Nuestro equipo está aquí para ayudarte en cada paso del camino.</li>
+        <li>Compromiso: Nos dedicamos a tu satisfacción y a superar tus expectativas.</li>
+      </ul>
+      
+      <h2>Nuestro Equipo</h2>
+      <p>
+        Conoce al equipo apasionado detrás de Tekowave. Nuestro equipo está formado por expertos en tecnología y entusiastas que trabajan arduamente para ofrecerte los mejores productos y servicios.
+      </p>
+      
+      <h2>Nuestra Historia</h2>
+      <p>
+        Fundada en 2023, Tekowave comenzó como una pequeña tienda local y ha crecido hasta convertirse en un líder en el mercado de tecnología.
+      </p>
+      
+ 
+<!--Informacion teko-->
+  <section class="contact-info">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" size-md="4">
+          <div style="display: flex; align-items: center;">
+            <ion-img src="assets/media/icono.jpg" style="width: 60px; margin-right: 10px;" alt=""></ion-img>
+            <ion-title>Tekowave</ion-title>
+          </div>
+        </ion-col>
+        <ion-col size="12" size-md="4">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>Nos ubicamos en Av. Mall #1002, Providencia</p>
+          <p>CONTACTOS:</p>
+          <p>Teléfono: 2 3948 0193</p>
+          <p>Email: <a href="email:Teko.Wave@gmail.com">Teko.Wave&#64;gmail.com</a></p>
+        </ion-col>
+        <ion-col size="12" size-md="4">
+          <h2>SÍGUENOS</h2>
+          <ion-icon name="logo-facebook" size="large" style="margin-right: 10px;"></ion-icon>
+          <ion-icon name="logo-instagram" size="large" style="margin-right: 10px;"></ion-icon>
+          <ion-icon name="logo-twitter" size="large" style="margin-right: 10px;"></ion-icon>
+          <ion-icon name="logo-youtube" size="large"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-text class="ion-text-center">
+      <small>&copy; 2023 <b>TekoWave</b> - Todos los Derechos Reservados.</small>
+    </ion-text>
+  </section>
+    </section>
+  </ion-content>
+  
+</div>

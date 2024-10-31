@@ -1,0 +1,76 @@
+<!-- Logo y Titulo -->
+<ion-content id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <div style="display: flex; align-items: center;">
+        <ion-img src="assets/media/icono.jpg" style="width: 60px; margin-right: 0px;" alt="Logo Tekowave"></ion-img>
+        <ion-title routerLink="/inicio">TEKOWAVE</ion-title>
+        <ion-buttons slot="end">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+      </div>
+      <!-- Barra Buscar -->
+      <ion-toolbar>
+        <ion-searchbar show-clear-button="focus" placeholder="Buscar..."></ion-searchbar>
+      </ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Contenido Principal -->
+  <div style="text-align: center; margin-top: 20px;">
+    <h3>¡Hola! Bienvenido a Tekowave</h3>
+  </div>
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/media/ca1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/media/ca2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/media/ca7.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <ion-card class="quick-actions-container">
+    <ion-card-header>
+      <ion-card-title>Acciones Rápidas</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="quick-action-buttons">
+        <ion-button expand="full" routerLink="/favoritos" fill="clear">
+          <ion-icon name="heart"></ion-icon>
+          Favoritos
+        </ion-button>
+        <ion-button expand="full" routerLink="/productos" fill="clear">
+          <ion-icon name="star"></ion-icon>
+          Productos
+        </ion-button>
+        <ion-button expand="full" routerLink="/carrito" fill="clear">
+          <ion-icon name="cart"></ion-icon>
+          Carrito
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+
+
+  
+</ion-content>
+
+
+  <ion-text class="ion-text-center">
+    <small>&copy; 2023 <b>TekoWave</b> - Todos los Derechos Reservados.</small>
+  </ion-text>
+
